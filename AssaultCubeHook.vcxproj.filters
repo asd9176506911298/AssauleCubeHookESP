@@ -25,6 +25,9 @@
     <Filter Include="OpenGL Text">
       <UniqueIdentifier>{dcfda8ed-8d14-4fbb-b023-0acd32f2ebac}</UniqueIdentifier>
     </Filter>
+    <Filter Include="esp">
+      <UniqueIdentifier>{c92df54f-992e-4476-b996-669c3c89aad4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -45,6 +48,15 @@
     <ClInclude Include="gltext.h">
       <Filter>OpenGL Text</Filter>
     </ClInclude>
+    <ClInclude Include="assaulecube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>esp</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -64,6 +76,12 @@
     </ClCompile>
     <ClCompile Include="gltext.cpp">
       <Filter>OpenGL Text</Filter>
+    </ClCompile>
+    <ClCompile Include="geom.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>esp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
